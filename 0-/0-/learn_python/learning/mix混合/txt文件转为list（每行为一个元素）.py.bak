@@ -1,0 +1,7 @@
+result=[]
+with open('./api.txt', encoding='utf-8') as f:
+	for line in f:
+		result.append(line.strip('\n').split(',')[0])
+print(result)
+#下面是对读取到的数组进行变化
+result_gai = []

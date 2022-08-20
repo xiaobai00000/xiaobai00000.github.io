@@ -1,0 +1,5 @@
+使用方式
+
+python3 run.py -t 线程数 -p 手机号
+
+python3 run.py -t 100 -p 15088888888

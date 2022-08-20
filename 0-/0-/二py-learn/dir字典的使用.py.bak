@@ -1,0 +1,3 @@
+a = {"j","gh","ou"}
+print(a)
+print(type(a))

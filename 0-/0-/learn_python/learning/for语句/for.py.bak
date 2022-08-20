@@ -1,0 +1,7 @@
+a = [1,2,3,4,5]
+counter = 0
+for b in a:    #a是一个列表，b为列表中的一个值
+    counter += 1
+    print(b,'已运行%d次'% counter )
+    
+#在列表中依次取出一个值，用每一个值运行一遍

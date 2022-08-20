@@ -1,0 +1,2 @@
+java var text=alert("测试"); 
+document.write(text);

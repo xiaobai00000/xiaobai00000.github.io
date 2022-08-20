@@ -1,0 +1,7 @@
+a = '你好，这是测试'
+print(a)
+a = a.replace('你好','Hello')
+print(a)
+Test = 'test'
+a = a.replace('测试',Test)    #前面的为被替换的字符串，后面为替换成的字符串（也可以是变量，变量内容也必须是字符串）
+print(a) 

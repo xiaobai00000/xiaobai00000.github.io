@@ -1,0 +1,15 @@
+a = ['笔','橡皮','纸','apple','banana','pear']
+print('a为字典',a)
+b = input('一句话：')
+c = input('一个词：')
+if c in a:#
+    print ('c在a中，a为%s，c为%s'%(a,c))#此时不知道是否在b中，因为已经停止判断
+    if c not in b:
+        print('c不在b中')
+    else:
+        print('c在b中')
+elif c in b:
+    print('c在b中，不在a中')
+else:
+    print ('c不在a，b中')
+#当a，b都是空的时候，a=b了，成立

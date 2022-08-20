@@ -1,0 +1,14 @@
+import requests
+import time 
+
+success = 0
+for i in range(1,lun):
+    url = ''
+    headers = 
+    data = ''
+    req = requests.get(url=url, headers=headers, data=)
+    if req.status_code==200:
+        success = success + 1
+    else:
+        pass
+    del url, headers

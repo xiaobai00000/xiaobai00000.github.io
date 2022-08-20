@@ -1,0 +1,31 @@
+import requests
+
+
+#设置请求
+url = "https://fanyi.baidu.com/sug"
+
+kw = input("输入翻译内容:")
+data = {"kw":kw}
+h = {"User-Agent":"Mozilla/5.0 (Linux; Android 8.1.0; V1818A Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 VivoBrowser/10.7.11.0"}
+
+request = requests.post(url=url, headers=h, data=data)
+
+print("得到的数据包的类型",type(request))
+
+#分析得到的数据包
+
+code = request.status_code
+if code == 200:
+    print("爬取成功")
+else:
+    print("错误代码:",code)
+print("\n"*2)
+print("翻译内容:",kw)
+print("以下为结果:")
+# hello; hi; How do you do!
+r = request.json()
+r1 = r["data"][0]["v"]
+print(r1)
+
+print('\n',r)
+# {'errno': 0, 'data': [{'k': '你好', 'v': 'hello; hi; How do you do!'}, {'k': '你好吗', 'v': 'How do you do?'}, {'k': '你好，陌生人', 'v': '[电影]Hello Stranger'}]}
