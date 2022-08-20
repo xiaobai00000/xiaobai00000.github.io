@@ -1,9 +1,0 @@
-from lxml import etree
-
-
-with open('./tt.html','r') as t:
-    t = t.read()
-    html = etree.HTML(t)
-    a = html.xpath('/html/body/ul/h1//text()')
-    print(a)
-    

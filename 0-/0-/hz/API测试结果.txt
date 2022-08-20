@@ -1,1 +1,0 @@
-http://slb-sport.vesal.cn/vesal-sport-prod/v1/app/member/getCode?tellAndEmail=18276559782

@@ -1,6 +1,0 @@
-https://user.meilimei.com/taomi/user/sendSmsCaptcha?mobile=18276559782
-http://api.v2.msparis.com/common/mobile?channel=App%20Store-vest&clientId=msparis-ios-4.2.4-vest&mobile=18276559782&platform=ios-vest&rent_mode=2
-https://webapi.account.mihoyo.com/Api/create_mobile_captcha?action_ticket=&action_type=regist&mobile=18276559782
-http://sapi.16888.com/app.php?mod=account&extra=mobileCode&mobile=18276559782
-https://passport.eqxiu.com/eqs/sms/token?phone=18276559782&type=quickLogin&checkPhone=1&channel=21&version=4.4.1
-http://www.weimaiyy.com/register/sms?t=0.6886729517940704&phone=18276559782

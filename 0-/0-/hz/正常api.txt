@@ -1,2 +1,0 @@
-http://user.daojia.com/mobile/getcode?mobile=%s
-https://user.daojia.com/mobile/getcode?mobile=%s&newVersion=1&bu=103

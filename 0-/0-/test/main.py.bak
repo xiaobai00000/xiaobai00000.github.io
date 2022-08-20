@@ -1,8 +1,0 @@
-import requests
-
-
-url = 'http://c.huayeee.com/#/UserLogin'
-
-headers = {'user-agent':''}
-data = {}
-print(requests.get(url=url,headers=headers,data=data).text)

@@ -1,8 +1,0 @@
-https://developer.i4.cn/put/getMsgCode.xhtml?_=1580912157461&phoneNumber=%s&codeType=6
-http://jrh.financeun.com/Login/sendMessageCode3.html?mobile=%s&mbid=197873&check=3
-https://exmail.qq.com/cgi-bin/bizmail_portal?action=send_sms&type=11&t=biz_rf_portal_mgr&ef=jsnew&resp_charset=UTF8&area=86&mobile=%s
-https://m.health.pingan.com/mapi/smsCode.json?deviceId=5a4c935cbb6ff6ca&deviceType=SM-G9300&timestamp=1545122608&app=0&platform=3&app_key=PAHealth&osversion=23&info=&version=1.0.1&resolution=1440x2560&screenSize=22&netType=1&channel=m_h5&phone=%s
-https://www.yojiang.cn/api/user/send_verify_code?phone=%s
-http://id.lejiaolexue.com/api/sendvericode.ashx?phone=%s
-https://www.baixing.com/oz/verify/reg?mobile=%s
-'https://rsks.class.com.cn/sysuser/fg/member/code?type=1&smsEnum=0&phone=%s&email=
