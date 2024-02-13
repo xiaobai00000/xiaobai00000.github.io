@@ -3,15 +3,14 @@
 
 
 <head>
-  <titile>网易云音乐下载</title>
+  <title>网易云音乐下载</title>
 
 <style>
-  /* 定义一个名为.boxed的CSS类 */
   .boxed {
-    border: 4px solid green; /* 添加边框，宽度为2像素，样式为实线，颜色为黑色 */
-    padding: 15px; /* 添加内边距，让内容离边框有一定的距离 */
-    margin: 15px; /* 添加外边距，让框与其他内容有一定的间隔 */
-    background-color: #f0f0f0; /* 设置背景色为浅灰色 */
+    border: 4px solid green;
+    padding: 15px;
+    margin: 15px; 
+    background-color: #f0f0f0;
   }
 </style>
 </head>
@@ -28,7 +27,7 @@
   <p>打开刚刚下载的应用，直接运行以下命令</p>
   
   <div class="boxed">
-    <p>cd ~ && sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade && pkg install python git && pip install requests bs4 -i https://pypi.tuna.tsinghua.edu.cn/simple && git clone https://github.com/xiaobai00000/musicDownload.git</p>
+    <p>cd ~ && sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade &&</p><p> pkg install python git && pip install requests bs4 -i https://pypi.tuna.tsinghua.edu.cn/simple && git clone https://github.com/xiaobai00000/musicDownload.git</p>
   </div>
   <p>运行后，需要选择的时候，直接回车</p>
   
